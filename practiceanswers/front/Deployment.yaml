@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: 144019379598.dkr.ecr.us-east-1.amazonaws.com/testrepo:frontendlatest   #### my image from ECR pushed through docker!
+        image: 907204426784.dkr.ecr.us-east-1.amazonaws.com/testrepo:frontendlatest   #### my image from ECR pushed through docker!
         ports:
         - name: http
           containerPort: 4567
